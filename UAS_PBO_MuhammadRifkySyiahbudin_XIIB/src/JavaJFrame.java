@@ -76,9 +76,9 @@ public class JavaJFrame extends javax.swing.JFrame {
         double b = Double.valueOf(jumlah);
         if(b <=100 && b >= 80) {
             nilai = "A";
-        }else if (b <= 79 && b >= 60){
+        }else if (b < 80 && b >= 60){
             nilai = "B";
-        }else if (b <= 69 && b >= 40){
+        }else if (b < 60 && b >= 40){
             nilai = "C";
         }else if (b <=39 ){
             nilai = "D";
